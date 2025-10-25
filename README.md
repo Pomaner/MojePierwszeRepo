@@ -25,7 +25,6 @@ Celem projektu jest poznanie podstawowych operacji takich jak:
 git clone https://github.com/<twoja-nazwa-uzytkownika>/MojePierwszeRepo.git
 2) Przejdź do katalogu projektu:
 bash
-Копіювати код
 cd MojePierwszeRepo
  Proces pracy z repozytorium
  Krok 1: Utworzenie repozytorium na GitHub.
