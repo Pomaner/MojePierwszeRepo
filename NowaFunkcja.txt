@@ -71,7 +71,7 @@ class Program
 
 
 
-                        if (count == 0)
+                        if (count == 0)        //Zmieniłem „/*??*/” na „==”, dla tego, że brakuje operatora porównania.
 
                         {
 
@@ -127,7 +127,7 @@ class Program
 
         char[,] board = new char[height, width];
 
-        Random random = new Random();
+        Random random = new Random();        //Zmieniłem „/*??*/” na „new Random()”, dlatego że był potrzebny generator liczb losowych
 
 
 
@@ -189,7 +189,7 @@ class Program
 
 
 
-        return displayBoard;
+        return displayBoard;        //Zmieniłem „/*??*/” na „return” dla zwracania wartości funkcji „displayBoard” po skończeniu „InitializeDisplayBoard”.
 
     }
 
@@ -261,7 +261,7 @@ class Program
 
         {
 
-            for (int j = Math.Max(0, x - 1); j <= Math.Min(width - 1, x + 1); j++) 
+            for (int j = Math.Max(0, x - 1); j <= Math.Min(width - 1, x + 1); j++)         //Zmieniłem „/*??*/” na „Math.Min” jako w "for" wyrzej(wiersz 260).
 
             {
 
@@ -363,7 +363,7 @@ class Program
 
 
 
-        return uncoveredCount == (wight * height - bombCount;)
+        return uncoveredCount == (wight * height - bombCount);        //Zmieniłem „/*??*/” na „wight” dla prawidłowego mnorzenia i dodałem nawiasy.
 
     }
 
